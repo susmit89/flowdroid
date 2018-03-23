@@ -1,0 +1,3 @@
+#!/bin/sh
+#java -Xmx4g -cp soot-infoflow-cmd-classes.jar:sootclasses-trunk-jar-with-dependencies.jar:soot-infoflow.jar:soot-infoflow-android.jar:slf4j-api-1.7.5.jar:slf4j-simple-1.7.5.jar:axml-2.0.jar soot.jimple.infoflow.android.TestApps.Test /home/susmit/Downloads/AliExpress\ Shopping_v6.5.1_apkpure.com.apk ~/Android/Sdk/platforms/  --process-multiple-dex --implicit
+java -Xmx4g -cp sootclasses-trunk-jar-with-dependencies.jar:soot-infoflow.jar:soot-infoflow-android.jar:slf4j-api-1.7.5.jar:slf4j-simple-1.7.5.jar:axml-2.0.jar soot.jimple.infoflow.android.TestApps.Test "$1" ~/Android/Sdk/platforms/

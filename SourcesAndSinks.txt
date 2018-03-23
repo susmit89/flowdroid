@@ -1,0 +1,35 @@
+<java.net.HttpURLConnection: void connect()> -> _SOURCE_
+<java.net.URLConnection: java.io.InputStream getInputStream()> -> _SOURCE_
+<java.net.URL: java.net.URLConnection openConnection()> -> _SINK_
+<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)> -> _SOURCE_
+<java.net.Socket: void getOutputStream()> -> _SOURCE_
+
+
+<android.widget.TextView: void setText(java.lang.CharSequence)>-> _SINK_
+<android.widget.TextView: void append(java.lang.CharSequence)>-> _SINK_ 
+
+<android.app.Dialog: void addContentView(android.view.View, android.view.ViewGroup.LayoutParams)>-> _SINK_
+<android.app.Dialog: void cancel()>-> _SINK_
+<android.app.Dialog: void create()>-> _SINK_
+<android.app.Dialog: void dismiss()>-> _SINK_
+
+<android.view.View: void onLayout (boolean,int,int,int,int)>-> _SINK_
+<android.view.View: void onDraw(android.graphics.Canvas)>-> _SINK_
+<android.view.View: void onAttachedToWindow()>-> _SINK_
+<android.view.View: void onFocusChanged(boolean, int, android.graphics.Rect)>-> _SINK_
+<android.view.View: void onKeyDown(int, android.view.KeyEvent)>-> _SINK_
+
+<android.view.ViewGroup: void addChildrenForAccessibility(java.util.ArrayList<android.view.View> )>-> _SINK_
+<android.view.ViewGroup: void addView(android.view.View, int)>-> _SINK_
+<android.view.ViewGroup: void addTouchables(java.util.ArrayList<android.view.View>)>-> _SINK_
+<android.view.ViewGroup: void addFocusables(java.util.ArrayList<android.view.View>, int, int)>-> _SINK_
+
+<android.view.ViewManager: void addView(android.view.View, android.view.ViewGroup.LayoutParams)>-> _SINK_
+<android.view.ViewManager: void updateViewLayout(android.view.View, android.view.ViewGroup.LayoutParams)>-> _SINK_
+
+<android.widget.ImageView: void setImageBitmap(android.graphics.Bitmap)>->  _SINK_
+
+<android.widget.WebView: void loadData(java.lang.String, java.lang.String, java.lang.String)> -> _SINK_
+<android.widget.WebView: void loadDataWithBaseURL(java.lang.String, java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)> -> _SINK_
+<android.widget.WebView: void loadUrl(java.lang.String)> -> _SINK_
+

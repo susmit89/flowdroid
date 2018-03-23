@@ -1,0 +1,193 @@
+Running data flow analysis...
+Found dex file 'classes6.dex' with 6 classes in '/home/susmit/ApkProjects/http/app/build/outputs/apk/debug/app-debug.apk'
+Found dex file 'classes5.dex' with 5 classes in '/home/susmit/ApkProjects/http/app/build/outputs/apk/debug/app-debug.apk'
+Found dex file 'classes4.dex' with 6 classes in '/home/susmit/ApkProjects/http/app/build/outputs/apk/debug/app-debug.apk'
+Found dex file 'classes3.dex' with 7 classes in '/home/susmit/ApkProjects/http/app/build/outputs/apk/debug/app-debug.apk'
+Found dex file 'classes2.dex' with 1 classes in '/home/susmit/ApkProjects/http/app/build/outputs/apk/debug/app-debug.apk'
+Found dex file 'classes.dex' with 3 classes in '/home/susmit/ApkProjects/http/app/build/outputs/apk/debug/app-debug.apk'
+WARNING: Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.1 seconds.
+[Spark] Solution found in 0.1 seconds.
+Callback analysis done.
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 1 layout controls in file res/layout-v21/notification_action.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 2 layout controls in file res/layout-v21/notification_action_tombstone.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 3 layout controls in file res/layout-v21/notification_template_custom_big.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 4 layout controls in file res/layout-v21/notification_template_icon_group.xml
+Found 4 layout controls in file res/layout-v26/abc_screen_toolbar.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 5 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 6 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 7 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Found 7 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Found 7 layout controls in file res/layout/abc_action_menu_layout.xml
+Found 7 layout controls in file res/layout/abc_action_mode_bar.xml
+Found unrecognized XML attribute:  id
+Found 8 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 9 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 10 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 11 layout controls in file res/layout/abc_alert_dialog_button_bar_material.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 12 layout controls in file res/layout/abc_alert_dialog_material.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 13 layout controls in file res/layout/abc_alert_dialog_title_material.xml
+Found unrecognized XML attribute:  id
+Found 14 layout controls in file res/layout/abc_dialog_title_material.xml
+Found 14 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Found unrecognized XML attribute:  id
+Found 15 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found unrecognized XML attribute:  id
+Found 16 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 17 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Found unrecognized XML attribute:  id
+Found 18 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Found unrecognized XML attribute:  id
+Found 19 layout controls in file res/layout/abc_popup_menu_header_item_layout.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 20 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Found 20 layout controls in file res/layout/abc_screen_content_include.xml
+Found 20 layout controls in file res/layout/abc_screen_simple.xml
+Found 20 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Found 20 layout controls in file res/layout/abc_screen_toolbar.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 21 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 22 layout controls in file res/layout/abc_search_view.xml
+Found 22 layout controls in file res/layout/abc_select_dialog_material.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 23 layout controls in file res/layout/activity_main.xml
+Found unrecognized XML attribute:  id
+Found 24 layout controls in file res/layout/notification_media_action.xml
+Found unrecognized XML attribute:  id
+Found 25 layout controls in file res/layout/notification_media_cancel_action.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 26 layout controls in file res/layout/notification_template_big_media.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 27 layout controls in file res/layout/notification_template_big_media_custom.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 28 layout controls in file res/layout/notification_template_big_media_narrow.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 29 layout controls in file res/layout/notification_template_big_media_narrow_custom.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 30 layout controls in file res/layout/notification_template_lines_media.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 31 layout controls in file res/layout/notification_template_media.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 32 layout controls in file res/layout/notification_template_media_custom.xml
+Found unrecognized XML attribute:  id
+Found 33 layout controls in file res/layout/notification_template_part_chronometer.xml
+Found 33 layout controls in file res/layout/notification_template_part_time.xml
+Found unrecognized XML attribute:  id
+Found 34 layout controls in file res/layout/select_dialog_item_material.xml
+Found unrecognized XML attribute:  id
+Found 35 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found unrecognized XML attribute:  id
+Found 36 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found unrecognized XML attribute:  id
+Found 37 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Found unrecognized XML attribute:  id
+Found 38 layout controls in file res/layout/tooltip.xml
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Running incremental callback analysis for 1 components...
+Incremental callback analysis done.
+Created a SourceSinkManager with 2 sources, 1 sinks, and 6 callback methods.
+Maximum memory consumption: 50.520232 MB
+Analysis has run for 2.564293384 seconds

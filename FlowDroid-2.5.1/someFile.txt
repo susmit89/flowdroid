@@ -1,0 +1,1545 @@
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 89 classes and 12 exclusions.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+Found dex file 'classes.dex' with 1622 classes in '/home/susmit/ApkProjects/httptest/app/build/outputs/apk/debug/app-debug.apk'
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.050069593 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.1 seconds.
+[Spark] Solution found in 0.1 seconds.
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ActionMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AlertDialogLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.DialogTitle
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ExpandedMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ContentFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ViewStubCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ViewStubCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 1 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 4 sources, 23 sinks, and 1 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /home/susmit/ApkProjects/httptest/app/build/outputs/apk/debug/app-debug.apk with 4 sources and 23 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-sensitive result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0.001332849 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.019944358 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 31 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.data.AndroidMemoryManager - Initializing FlowDroid memory manager...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 1 sources and 1 sinks.
+  preds: []
+  unexceptional preds: []
+  exceptional preds: []
+$r0 := @this: com.example.susmit.httptest.MainActivity
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [$r1 := @parameter0: android.os.Bundle]
+  exceptional succs: []
+  succs [$r1 := @parameter0: android.os.Bundle]
+
+  preds: [$r0 := @this: com.example.susmit.httptest.MainActivity]
+  unexceptional preds: [$r0 := @this: com.example.susmit.httptest.MainActivity]
+  exceptional preds: []
+$r1 := @parameter0: android.os.Bundle
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [$r6 = new android.os.StrictMode$ThreadPolicy$Builder]
+  exceptional succs: []
+  succs [$r6 = new android.os.StrictMode$ThreadPolicy$Builder]
+
+  preds: [$r1 := @parameter0: android.os.Bundle]
+  unexceptional preds: [$r1 := @parameter0: android.os.Bundle]
+  exceptional preds: []
+$r6 = new android.os.StrictMode$ThreadPolicy$Builder
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> (escapes)]
+  unexceptional succs: [specialinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: void <init>()>()]
+  exceptional succs: []
+  succs [specialinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: void <init>()>()]
+
+  preds: [$r6 = new android.os.StrictMode$ThreadPolicy$Builder]
+  unexceptional preds: [$r6 = new android.os.StrictMode$ThreadPolicy$Builder]
+  exceptional preds: []
+specialinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: void <init>()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskReads()>()]
+  exceptional succs: []
+  succs [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskReads()>()]
+
+  preds: [specialinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: void <init>()>()]
+  unexceptional preds: [specialinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: void <init>()>()]
+  exceptional preds: []
+$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskReads()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites()>()]
+  exceptional succs: []
+  succs [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites()>()]
+
+  preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskReads()>()]
+  unexceptional preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskReads()>()]
+  exceptional preds: []
+$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectNetwork()>()]
+  exceptional succs: []
+  succs [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectNetwork()>()]
+
+  preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites()>()]
+  unexceptional preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites()>()]
+  exceptional preds: []
+$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectNetwork()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder penaltyLog()>()]
+  exceptional succs: []
+  succs [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder penaltyLog()>()]
+
+  preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectNetwork()>()]
+  unexceptional preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectNetwork()>()]
+  exceptional preds: []
+$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder penaltyLog()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r7 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy build()>()]
+  exceptional succs: []
+  succs [$r7 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy build()>()]
+
+  preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder penaltyLog()>()]
+  unexceptional preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder penaltyLog()>()]
+  exceptional preds: []
+$r7 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy build()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [staticinvoke <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)>($r7)]
+  exceptional succs: []
+  succs [staticinvoke <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)>($r7)]
+
+  preds: [$r7 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy build()>()]
+  unexceptional preds: [$r7 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy build()>()]
+  exceptional preds: []
+staticinvoke <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)>($r7)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> (escapes)]
+  unexceptional succs: [$r8 = new android.os.StrictMode$VmPolicy$Builder]
+  exceptional succs: []
+  succs [$r8 = new android.os.StrictMode$VmPolicy$Builder]
+
+  preds: [staticinvoke <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)>($r7)]
+  unexceptional preds: [staticinvoke <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)>($r7)]
+  exceptional preds: []
+$r8 = new android.os.StrictMode$VmPolicy$Builder
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> (escapes)]
+  unexceptional succs: [specialinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: void <init>()>()]
+  exceptional succs: []
+  succs [specialinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: void <init>()>()]
+
+  preds: [$r8 = new android.os.StrictMode$VmPolicy$Builder]
+  unexceptional preds: [$r8 = new android.os.StrictMode$VmPolicy$Builder]
+  exceptional preds: []
+specialinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: void <init>()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects()>()]
+  exceptional succs: []
+  succs [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects()>()]
+
+  preds: [specialinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: void <init>()>()]
+  unexceptional preds: [specialinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: void <init>()>()]
+  exceptional preds: []
+$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects()>()]
+  exceptional succs: []
+  succs [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects()>()]
+
+  preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects()>()]
+  unexceptional preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects()>()]
+  exceptional preds: []
+$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyLog()>()]
+  exceptional succs: []
+  succs [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyLog()>()]
+
+  preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects()>()]
+  unexceptional preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects()>()]
+  exceptional preds: []
+$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyLog()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyDeath()>()]
+  exceptional succs: []
+  succs [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyDeath()>()]
+
+  preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyLog()>()]
+  unexceptional preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyLog()>()]
+  exceptional preds: []
+$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyDeath()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r9 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy build()>()]
+  exceptional succs: []
+  succs [$r9 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy build()>()]
+
+  preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyDeath()>()]
+  unexceptional preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyDeath()>()]
+  exceptional preds: []
+$r9 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy build()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [staticinvoke <android.os.StrictMode: void setVmPolicy(android.os.StrictMode$VmPolicy)>($r9)]
+  exceptional succs: []
+  succs [staticinvoke <android.os.StrictMode: void setVmPolicy(android.os.StrictMode$VmPolicy)>($r9)]
+
+  preds: [$r9 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy build()>()]
+  unexceptional preds: [$r9 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy build()>()]
+  exceptional preds: []
+staticinvoke <android.os.StrictMode: void setVmPolicy(android.os.StrictMode$VmPolicy)>($r9)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> (escapes)]
+  unexceptional succs: [specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)]
+  exceptional succs: []
+  succs [specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)]
+
+  preds: [staticinvoke <android.os.StrictMode: void setVmPolicy(android.os.StrictMode$VmPolicy)>($r9)]
+  unexceptional preds: [staticinvoke <android.os.StrictMode: void setVmPolicy(android.os.StrictMode$VmPolicy)>($r9)]
+  exceptional preds: []
+specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r4 = new android.widget.TextView]
+  exceptional succs: []
+  succs [$r4 = new android.widget.TextView]
+
+  preds: [specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)]
+  unexceptional preds: [specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)]
+  exceptional preds: []
+$r4 = new android.widget.TextView
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> (escapes)]
+  unexceptional succs: [specialinvoke $r4.<android.widget.TextView: void <init>(android.content.Context)>($r0)]
+  exceptional succs: []
+  succs [specialinvoke $r4.<android.widget.TextView: void <init>(android.content.Context)>($r0)]
+
+  preds: [$r4 = new android.widget.TextView]
+  unexceptional preds: [$r4 = new android.widget.TextView]
+  exceptional preds: []
+specialinvoke $r4.<android.widget.TextView: void <init>(android.content.Context)>($r0)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [virtualinvoke $r0.<com.example.susmit.httptest.MainActivity: void setContentView(android.view.View)>($r4)]
+  exceptional succs: []
+  succs [virtualinvoke $r0.<com.example.susmit.httptest.MainActivity: void setContentView(android.view.View)>($r4)]
+
+  preds: [specialinvoke $r4.<android.widget.TextView: void <init>(android.content.Context)>($r0)]
+  unexceptional preds: [specialinvoke $r4.<android.widget.TextView: void <init>(android.content.Context)>($r0)]
+  exceptional preds: []
+virtualinvoke $r0.<com.example.susmit.httptest.MainActivity: void setContentView(android.view.View)>($r4)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r10 = null]
+  exceptional succs: []
+  succs [$r10 = null]
+
+  preds: [virtualinvoke $r0.<com.example.susmit.httptest.MainActivity: void setContentView(android.view.View)>($r4)]
+  unexceptional preds: [virtualinvoke $r0.<com.example.susmit.httptest.MainActivity: void setContentView(android.view.View)>($r4)]
+  exceptional preds: []
+$r10 = null
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [$r5 = new java.net.URL]
+  exceptional succs: [$r17 := @caughtexception]
+  succs [$r5 = new java.net.URL, $r17 := @caughtexception]
+
+  preds: [$r10 = null]
+  unexceptional preds: [$r10 = null]
+  exceptional preds: []
+$r5 = new java.net.URL
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> Trap :
+begin  : $r5 = new java.net.URL
+end    : $r10 = $r12
+handler: $r17 := @caughtexception]
+  unexceptional succs: [specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")]
+
+  preds: [$r5 = new java.net.URL]
+  unexceptional preds: [$r5 = new java.net.URL]
+  exceptional preds: []
+specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")
+end    : $r10 = $r12
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r5 = new java.net.URL
+end    : $r10 = $r12
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()]
+
+  preds: [specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")]
+  unexceptional preds: [specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")]
+  exceptional preds: []
+$r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")
+end    : $r10 = $r12
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r5 = new java.net.URL
+end    : $r10 = $r12
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r12 = (java.net.HttpURLConnection) $r11]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r12 = (java.net.HttpURLConnection) $r11]
+
+  preds: [$r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()]
+  unexceptional preds: [$r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()]
+  exceptional preds: []
+$r12 = (java.net.HttpURLConnection) $r11
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@ba6867b5:
+  +java.lang.ClassCastException -> Trap :
+begin  : specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")
+end    : $r10 = $r12
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@c586a7cf:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+Any_subtype_of_java.lang.ClassFormatError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r5 = new java.net.URL
+end    : $r10 = $r12
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r10 = $r12]
+  exceptional succs: []
+  succs [$r10 = $r12]
+
+  preds: [$r12 = (java.net.HttpURLConnection) $r11]
+  unexceptional preds: [$r12 = (java.net.HttpURLConnection) $r11]
+  exceptional preds: []
+$r10 = $r12
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [$r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()]
+
+  preds: [$r10 = $r12]
+  unexceptional preds: [$r10 = $r12]
+  exceptional preds: []
+$r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+end    : $r3 = new java.io.InputStreamReader
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+end    : $r14 = ""
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r3 = new java.io.InputStreamReader]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r3 = new java.io.InputStreamReader]
+
+  preds: [$r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()]
+  unexceptional preds: [$r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()]
+  exceptional preds: []
+$r3 = new java.io.InputStreamReader
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> Trap :
+begin  : $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+end    : $r14 = ""
+handler: $r17 := @caughtexception]
+  unexceptional succs: [specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)]
+
+  preds: [$r3 = new java.io.InputStreamReader]
+  unexceptional preds: [$r3 = new java.io.InputStreamReader]
+  exceptional preds: []
+specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)
+end    : $r14 = ""
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+end    : $r14 = ""
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+
+  preds: [specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)]
+  unexceptional preds: [specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)]
+  exceptional preds: []
+$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)
+end    : $r14 = ""
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+end    : $r14 = ""
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r14 = ""]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r14 = ""]
+
+  preds: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  unexceptional preds: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  exceptional preds: []
+$r14 = ""
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional succs: []
+  succs [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+
+  preds: [$r14 = "", goto [?= (branch)]]
+  unexceptional preds: [$r14 = "", goto [?= (branch)]]
+  exceptional preds: []
+if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [$c0 = (char) $i1, virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$c0 = (char) $i1, virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), $r2 := @caughtexception, $r17 := @caughtexception]
+
+  preds: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  unexceptional preds: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional preds: []
+$c0 = (char) $i1
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@c586a7cf:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+Any_subtype_of_java.lang.ClassFormatError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $c0 = (char) $i1
+end    : $r15 = <java.lang.System: java.io.PrintStream out>
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+
+  preds: [$c0 = (char) $i1]
+  unexceptional preds: [$c0 = (char) $i1]
+  exceptional preds: []
+$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()
+end    : $r15 = <java.lang.System: java.io.PrintStream out>
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $c0 = (char) $i1
+end    : $r15 = <java.lang.System: java.io.PrintStream out>
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r15 = <java.lang.System: java.io.PrintStream out>]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r15 = <java.lang.System: java.io.PrintStream out>]
+
+  preds: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  unexceptional preds: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  exceptional preds: []
+$r15 = <java.lang.System: java.io.PrintStream out>
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)]
+
+  preds: [$r15 = <java.lang.System: java.io.PrintStream out>]
+  unexceptional preds: [$r15 = <java.lang.System: java.io.PrintStream out>]
+  exceptional preds: []
+virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)
+end    : $r16 = new java.lang.StringBuilder
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r16 = new java.lang.StringBuilder]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r16 = new java.lang.StringBuilder]
+
+  preds: [virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)]
+  unexceptional preds: [virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)]
+  exceptional preds: []
+$r16 = new java.lang.StringBuilder
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()]
+
+  preds: [$r16 = new java.lang.StringBuilder]
+  unexceptional preds: [$r16 = new java.lang.StringBuilder]
+  exceptional preds: []
+specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()
+end    : goto [?= (branch)]
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)]
+
+  preds: [specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()]
+  unexceptional preds: [specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()]
+  exceptional preds: []
+$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()
+end    : goto [?= (branch)]
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)]
+
+  preds: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)]
+  unexceptional preds: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)]
+  exceptional preds: []
+$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()
+end    : goto [?= (branch)]
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()]
+
+  preds: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)]
+  unexceptional preds: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)]
+  exceptional preds: []
+$r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()
+end    : goto [?= (branch)]
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [goto [?= (branch)]]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, goto [?= (branch)]]
+
+  preds: [$r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()]
+  unexceptional preds: [$r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()]
+  exceptional preds: []
+goto [?= (branch)]
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional succs: []
+  succs [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+
+  preds: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  unexceptional preds: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional preds: []
+virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+end    : if $r12 == null goto return
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+end    : if $r12 == null goto return
+handler: $r17 := @caughtexception]
+  unexceptional succs: [if $r12 == null goto return]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, if $r12 == null goto return]
+
+  preds: [virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  unexceptional preds: [virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional preds: []
+if $r12 == null goto return
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [virtualinvoke $r12.<java.net.HttpURLConnection: void disconnect()>(), return]
+  exceptional succs: []
+  succs [virtualinvoke $r12.<java.net.HttpURLConnection: void disconnect()>(), return]
+
+  preds: [if $r12 == null goto return]
+  unexceptional preds: [if $r12 == null goto return]
+  exceptional preds: []
+virtualinvoke $r12.<java.net.HttpURLConnection: void disconnect()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [return]
+  exceptional succs: []
+  succs [return]
+
+  preds: [virtualinvoke $r12.<java.net.HttpURLConnection: void disconnect()>()]
+  unexceptional preds: [virtualinvoke $r12.<java.net.HttpURLConnection: void disconnect()>()]
+  exceptional preds: []
+return
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: []
+  exceptional succs: []
+  succs []
+
+  preds: [$r5 = new java.net.URL, specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt"), $r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>(), $r10 = $r12, $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>(), $r3 = new java.io.InputStreamReader, specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13), $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $c0 = (char) $i1, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $r15 = <java.lang.System: java.io.PrintStream out>, virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0), $r16 = new java.lang.StringBuilder, specialinvoke $r16.<java.lang.StringBuilder: void <init>()>(), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0), $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>(), if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  unexceptional preds: []
+  exceptional preds: [$r5 = new java.net.URL, specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt"), $r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>(), $r10 = $r12, $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>(), $r3 = new java.io.InputStreamReader, specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13), $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $c0 = (char) $i1, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $r15 = <java.lang.System: java.io.PrintStream out>, virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0), $r16 = new java.lang.StringBuilder, specialinvoke $r16.<java.lang.StringBuilder: void <init>()>(), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0), $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>(), if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+$r2 := @caughtexception
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()]
+  exceptional succs: [$r17 := @caughtexception]
+  succs [virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>(), $r17 := @caughtexception]
+
+  preds: [$r2 := @caughtexception]
+  unexceptional preds: [$r2 := @caughtexception]
+  exceptional preds: []
+virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> Trap :
+begin  : virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()
+end    : if $r10 == null goto return
+handler: $r17 := @caughtexception]
+  unexceptional succs: [if $r10 == null goto return]
+  exceptional succs: [$r17 := @caughtexception]
+  succs [if $r10 == null goto return, $r17 := @caughtexception]
+
+  preds: [virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()]
+  unexceptional preds: [virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()]
+  exceptional preds: []
+if $r10 == null goto return
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>(), return]
+  exceptional succs: []
+  succs [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>(), return]
+
+  preds: [if $r10 == null goto return]
+  unexceptional preds: [if $r10 == null goto return]
+  exceptional preds: []
+virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [return]
+  exceptional succs: []
+  succs [return]
+
+  preds: [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()]
+  unexceptional preds: [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()]
+  exceptional preds: []
+return
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: []
+  exceptional succs: []
+  succs []
+
+  preds: [$r5 = new java.net.URL, specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt"), $r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>(), $r10 = $r12, $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>(), $r3 = new java.io.InputStreamReader, specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13), $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $c0 = (char) $i1, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $r15 = <java.lang.System: java.io.PrintStream out>, virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0), $r16 = new java.lang.StringBuilder, specialinvoke $r16.<java.lang.StringBuilder: void <init>()>(), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0), $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>(), if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), $r10 = null, $r2 := @caughtexception, virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()]
+  unexceptional preds: []
+  exceptional preds: [$r5 = new java.net.URL, specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt"), $r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>(), $r10 = $r12, $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>(), $r3 = new java.io.InputStreamReader, specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13), $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $c0 = (char) $i1, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $r15 = <java.lang.System: java.io.PrintStream out>, virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0), $r16 = new java.lang.StringBuilder, specialinvoke $r16.<java.lang.StringBuilder: void <init>()>(), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0), $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>(), if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), $r10 = null, $r2 := @caughtexception, virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()]
+$r17 := @caughtexception
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [if $r10 == null goto throw $r17]
+  exceptional succs: []
+  succs [if $r10 == null goto throw $r17]
+
+  preds: [$r17 := @caughtexception]
+  unexceptional preds: [$r17 := @caughtexception]
+  exceptional preds: []
+if $r10 == null goto throw $r17
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>(), throw $r17]
+  exceptional succs: []
+  succs [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>(), throw $r17]
+
+  preds: [if $r10 == null goto throw $r17]
+  unexceptional preds: [if $r10 == null goto throw $r17]
+  exceptional preds: []
+virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [throw $r17]
+  exceptional succs: []
+  succs [throw $r17]
+
+  preds: [if $r10 == null goto throw $r17, virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()]
+  unexceptional preds: [if $r10 == null goto throw $r17, virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()]
+  exceptional preds: []
+throw $r17
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@f5bfd777:
+  +Any_subtype_of_java.lang.Throwable -> (escapes)]
+  unexceptional succs: []
+  exceptional succs: []
+  succs []
+
+  preds: [if $r12 == null goto return, if $r10 == null goto return]
+  unexceptional preds: [if $r12 == null goto return, if $r10 == null goto return]
+  exceptional preds: []
+return
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: []
+  exceptional succs: []
+  succs []
+
+
+  preds: []
+  unexceptional preds: []
+  exceptional preds: []
+$r0 := @this: com.example.susmit.httptest.MainActivity
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [$r1 := @parameter0: android.os.Bundle]
+  exceptional succs: []
+  succs [$r1 := @parameter0: android.os.Bundle]
+
+  preds: [$r0 := @this: com.example.susmit.httptest.MainActivity]
+  unexceptional preds: [$r0 := @this: com.example.susmit.httptest.MainActivity]
+  exceptional preds: []
+$r1 := @parameter0: android.os.Bundle
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [$r6 = new android.os.StrictMode$ThreadPolicy$Builder]
+  exceptional succs: []
+  succs [$r6 = new android.os.StrictMode$ThreadPolicy$Builder]
+
+  preds: [$r1 := @parameter0: android.os.Bundle]
+  unexceptional preds: [$r1 := @parameter0: android.os.Bundle]
+  exceptional preds: []
+$r6 = new android.os.StrictMode$ThreadPolicy$Builder
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> (escapes)]
+  unexceptional succs: [specialinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: void <init>()>()]
+  exceptional succs: []
+  succs [specialinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: void <init>()>()]
+
+  preds: [$r6 = new android.os.StrictMode$ThreadPolicy$Builder]
+  unexceptional preds: [$r6 = new android.os.StrictMode$ThreadPolicy$Builder]
+  exceptional preds: []
+specialinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: void <init>()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskReads()>()]
+  exceptional succs: []
+  succs [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskReads()>()]
+
+  preds: [specialinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: void <init>()>()]
+  unexceptional preds: [specialinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: void <init>()>()]
+  exceptional preds: []
+$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskReads()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites()>()]
+  exceptional succs: []
+  succs [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites()>()]
+
+  preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskReads()>()]
+  unexceptional preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskReads()>()]
+  exceptional preds: []
+$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectNetwork()>()]
+  exceptional succs: []
+  succs [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectNetwork()>()]
+
+  preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites()>()]
+  unexceptional preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites()>()]
+  exceptional preds: []
+$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectNetwork()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder penaltyLog()>()]
+  exceptional succs: []
+  succs [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder penaltyLog()>()]
+
+  preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectNetwork()>()]
+  unexceptional preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder detectNetwork()>()]
+  exceptional preds: []
+$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder penaltyLog()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r7 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy build()>()]
+  exceptional succs: []
+  succs [$r7 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy build()>()]
+
+  preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder penaltyLog()>()]
+  unexceptional preds: [$r6 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy$Builder penaltyLog()>()]
+  exceptional preds: []
+$r7 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy build()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [staticinvoke <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)>($r7)]
+  exceptional succs: []
+  succs [staticinvoke <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)>($r7)]
+
+  preds: [$r7 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy build()>()]
+  unexceptional preds: [$r7 = virtualinvoke $r6.<android.os.StrictMode$ThreadPolicy$Builder: android.os.StrictMode$ThreadPolicy build()>()]
+  exceptional preds: []
+staticinvoke <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)>($r7)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> (escapes)]
+  unexceptional succs: [$r8 = new android.os.StrictMode$VmPolicy$Builder]
+  exceptional succs: []
+  succs [$r8 = new android.os.StrictMode$VmPolicy$Builder]
+
+  preds: [staticinvoke <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)>($r7)]
+  unexceptional preds: [staticinvoke <android.os.StrictMode: void setThreadPolicy(android.os.StrictMode$ThreadPolicy)>($r7)]
+  exceptional preds: []
+$r8 = new android.os.StrictMode$VmPolicy$Builder
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> (escapes)]
+  unexceptional succs: [specialinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: void <init>()>()]
+  exceptional succs: []
+  succs [specialinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: void <init>()>()]
+
+  preds: [$r8 = new android.os.StrictMode$VmPolicy$Builder]
+  unexceptional preds: [$r8 = new android.os.StrictMode$VmPolicy$Builder]
+  exceptional preds: []
+specialinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: void <init>()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects()>()]
+  exceptional succs: []
+  succs [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects()>()]
+
+  preds: [specialinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: void <init>()>()]
+  unexceptional preds: [specialinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: void <init>()>()]
+  exceptional preds: []
+$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects()>()]
+  exceptional succs: []
+  succs [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects()>()]
+
+  preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects()>()]
+  unexceptional preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects()>()]
+  exceptional preds: []
+$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyLog()>()]
+  exceptional succs: []
+  succs [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyLog()>()]
+
+  preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects()>()]
+  unexceptional preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects()>()]
+  exceptional preds: []
+$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyLog()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyDeath()>()]
+  exceptional succs: []
+  succs [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyDeath()>()]
+
+  preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyLog()>()]
+  unexceptional preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyLog()>()]
+  exceptional preds: []
+$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyDeath()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r9 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy build()>()]
+  exceptional succs: []
+  succs [$r9 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy build()>()]
+
+  preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyDeath()>()]
+  unexceptional preds: [$r8 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy$Builder penaltyDeath()>()]
+  exceptional preds: []
+$r9 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy build()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [staticinvoke <android.os.StrictMode: void setVmPolicy(android.os.StrictMode$VmPolicy)>($r9)]
+  exceptional succs: []
+  succs [staticinvoke <android.os.StrictMode: void setVmPolicy(android.os.StrictMode$VmPolicy)>($r9)]
+
+  preds: [$r9 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy build()>()]
+  unexceptional preds: [$r9 = virtualinvoke $r8.<android.os.StrictMode$VmPolicy$Builder: android.os.StrictMode$VmPolicy build()>()]
+  exceptional preds: []
+staticinvoke <android.os.StrictMode: void setVmPolicy(android.os.StrictMode$VmPolicy)>($r9)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> (escapes)]
+  unexceptional succs: [specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)]
+  exceptional succs: []
+  succs [specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)]
+
+  preds: [staticinvoke <android.os.StrictMode: void setVmPolicy(android.os.StrictMode$VmPolicy)>($r9)]
+  unexceptional preds: [staticinvoke <android.os.StrictMode: void setVmPolicy(android.os.StrictMode$VmPolicy)>($r9)]
+  exceptional preds: []
+specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r4 = new android.widget.TextView]
+  exceptional succs: []
+  succs [$r4 = new android.widget.TextView]
+
+  preds: [specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)]
+  unexceptional preds: [specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)]
+  exceptional preds: []
+$r4 = new android.widget.TextView
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> (escapes)]
+  unexceptional succs: [specialinvoke $r4.<android.widget.TextView: void <init>(android.content.Context)>($r0)]
+  exceptional succs: []
+  succs [specialinvoke $r4.<android.widget.TextView: void <init>(android.content.Context)>($r0)]
+
+  preds: [$r4 = new android.widget.TextView]
+  unexceptional preds: [$r4 = new android.widget.TextView]
+  exceptional preds: []
+specialinvoke $r4.<android.widget.TextView: void <init>(android.content.Context)>($r0)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [virtualinvoke $r0.<com.example.susmit.httptest.MainActivity: void setContentView(android.view.View)>($r4)]
+  exceptional succs: []
+  succs [virtualinvoke $r0.<com.example.susmit.httptest.MainActivity: void setContentView(android.view.View)>($r4)]
+
+  preds: [specialinvoke $r4.<android.widget.TextView: void <init>(android.content.Context)>($r0)]
+  unexceptional preds: [specialinvoke $r4.<android.widget.TextView: void <init>(android.content.Context)>($r0)]
+  exceptional preds: []
+virtualinvoke $r0.<com.example.susmit.httptest.MainActivity: void setContentView(android.view.View)>($r4)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [$r10 = null]
+  exceptional succs: []
+  succs [$r10 = null]
+
+  preds: [virtualinvoke $r0.<com.example.susmit.httptest.MainActivity: void setContentView(android.view.View)>($r4)]
+  unexceptional preds: [virtualinvoke $r0.<com.example.susmit.httptest.MainActivity: void setContentView(android.view.View)>($r4)]
+  exceptional preds: []
+$r10 = null
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [$r5 = new java.net.URL]
+  exceptional succs: [$r17 := @caughtexception]
+  succs [$r5 = new java.net.URL, $r17 := @caughtexception]
+
+  preds: [$r10 = null]
+  unexceptional preds: [$r10 = null]
+  exceptional preds: []
+$r5 = new java.net.URL
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> Trap :
+begin  : $r5 = new java.net.URL
+end    : $r10 = $r12
+handler: $r17 := @caughtexception]
+  unexceptional succs: [specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")]
+
+  preds: [$r5 = new java.net.URL]
+  unexceptional preds: [$r5 = new java.net.URL]
+  exceptional preds: []
+specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")
+end    : $r10 = $r12
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r5 = new java.net.URL
+end    : $r10 = $r12
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()]
+
+  preds: [specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")]
+  unexceptional preds: [specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")]
+  exceptional preds: []
+$r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")
+end    : $r10 = $r12
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r5 = new java.net.URL
+end    : $r10 = $r12
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r12 = (java.net.HttpURLConnection) $r11]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r12 = (java.net.HttpURLConnection) $r11]
+
+  preds: [$r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()]
+  unexceptional preds: [$r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>()]
+  exceptional preds: []
+$r12 = (java.net.HttpURLConnection) $r11
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@ba6867b5:
+  +java.lang.ClassCastException -> Trap :
+begin  : specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt")
+end    : $r10 = $r12
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@c586a7cf:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+Any_subtype_of_java.lang.ClassFormatError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r5 = new java.net.URL
+end    : $r10 = $r12
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r10 = $r12]
+  exceptional succs: []
+  succs [$r10 = $r12]
+
+  preds: [$r12 = (java.net.HttpURLConnection) $r11]
+  unexceptional preds: [$r12 = (java.net.HttpURLConnection) $r11]
+  exceptional preds: []
+$r10 = $r12
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [$r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()]
+
+  preds: [$r10 = $r12]
+  unexceptional preds: [$r10 = $r12]
+  exceptional preds: []
+$r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+end    : $r3 = new java.io.InputStreamReader
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+end    : $r14 = ""
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r3 = new java.io.InputStreamReader]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r3 = new java.io.InputStreamReader]
+
+  preds: [$r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()]
+  unexceptional preds: [$r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()]
+  exceptional preds: []
+$r3 = new java.io.InputStreamReader
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> Trap :
+begin  : $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+end    : $r14 = ""
+handler: $r17 := @caughtexception]
+  unexceptional succs: [specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)]
+
+  preds: [$r3 = new java.io.InputStreamReader]
+  unexceptional preds: [$r3 = new java.io.InputStreamReader]
+  exceptional preds: []
+specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)
+end    : $r14 = ""
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+end    : $r14 = ""
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+
+  preds: [specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)]
+  unexceptional preds: [specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)]
+  exceptional preds: []
+$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)
+end    : $r14 = ""
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+end    : $r14 = ""
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r14 = ""]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r14 = ""]
+
+  preds: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  unexceptional preds: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  exceptional preds: []
+$r14 = ""
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional succs: []
+  succs [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+
+  preds: [$r14 = "", goto [?= (branch)]]
+  unexceptional preds: [$r14 = "", goto [?= (branch)]]
+  exceptional preds: []
+if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [$c0 = (char) $i1, virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$c0 = (char) $i1, virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), $r2 := @caughtexception, $r17 := @caughtexception]
+
+  preds: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  unexceptional preds: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional preds: []
+$c0 = (char) $i1
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@c586a7cf:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+Any_subtype_of_java.lang.ClassFormatError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $c0 = (char) $i1
+end    : $r15 = <java.lang.System: java.io.PrintStream out>
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+
+  preds: [$c0 = (char) $i1]
+  unexceptional preds: [$c0 = (char) $i1]
+  exceptional preds: []
+$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()
+end    : $r15 = <java.lang.System: java.io.PrintStream out>
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $c0 = (char) $i1
+end    : $r15 = <java.lang.System: java.io.PrintStream out>
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r15 = <java.lang.System: java.io.PrintStream out>]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r15 = <java.lang.System: java.io.PrintStream out>]
+
+  preds: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  unexceptional preds: [$i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()]
+  exceptional preds: []
+$r15 = <java.lang.System: java.io.PrintStream out>
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)]
+
+  preds: [$r15 = <java.lang.System: java.io.PrintStream out>]
+  unexceptional preds: [$r15 = <java.lang.System: java.io.PrintStream out>]
+  exceptional preds: []
+virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)
+end    : $r16 = new java.lang.StringBuilder
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r16 = new java.lang.StringBuilder]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r16 = new java.lang.StringBuilder]
+
+  preds: [virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)]
+  unexceptional preds: [virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0)]
+  exceptional preds: []
+$r16 = new java.lang.StringBuilder
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@e5081e1c:
+  +Any_subtype_of_java.lang.Error -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()]
+
+  preds: [$r16 = new java.lang.StringBuilder]
+  unexceptional preds: [$r16 = new java.lang.StringBuilder]
+  exceptional preds: []
+specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()
+end    : goto [?= (branch)]
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)]
+
+  preds: [specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()]
+  unexceptional preds: [specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()]
+  exceptional preds: []
+$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()
+end    : goto [?= (branch)]
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)]
+
+  preds: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)]
+  unexceptional preds: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)]
+  exceptional preds: []
+$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()
+end    : goto [?= (branch)]
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [$r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()]
+
+  preds: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)]
+  unexceptional preds: [$r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)]
+  exceptional preds: []
+$r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : specialinvoke $r16.<java.lang.StringBuilder: void <init>()>()
+end    : goto [?= (branch)]
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : $r15 = <java.lang.System: java.io.PrintStream out>
+end    : goto [?= (branch)]
+handler: $r17 := @caughtexception]
+  unexceptional succs: [goto [?= (branch)]]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, goto [?= (branch)]]
+
+  preds: [$r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()]
+  unexceptional preds: [$r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()]
+  exceptional preds: []
+goto [?= (branch)]
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional succs: []
+  succs [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+
+  preds: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  unexceptional preds: [if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional preds: []
+virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9072ffd4:
+  +java.lang.NullPointerException -> Trap :
+begin  : virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+end    : if $r12 == null goto return
+handler: $r2 := @caughtexception, soot.toolkits.exceptions.ThrowableSet@505584a:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.VerifyError -> Trap :
+begin  : virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+end    : if $r12 == null goto return
+handler: $r17 := @caughtexception]
+  unexceptional succs: [if $r12 == null goto return]
+  exceptional succs: [$r2 := @caughtexception, $r17 := @caughtexception]
+  succs [$r2 := @caughtexception, $r17 := @caughtexception, if $r12 == null goto return]
+
+  preds: [virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  unexceptional preds: [virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  exceptional preds: []
+if $r12 == null goto return
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [virtualinvoke $r12.<java.net.HttpURLConnection: void disconnect()>(), return]
+  exceptional succs: []
+  succs [virtualinvoke $r12.<java.net.HttpURLConnection: void disconnect()>(), return]
+
+  preds: [if $r12 == null goto return]
+  unexceptional preds: [if $r12 == null goto return]
+  exceptional preds: []
+virtualinvoke $r12.<java.net.HttpURLConnection: void disconnect()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [return]
+  exceptional succs: []
+  succs [return]
+
+  preds: [virtualinvoke $r12.<java.net.HttpURLConnection: void disconnect()>()]
+  unexceptional preds: [virtualinvoke $r12.<java.net.HttpURLConnection: void disconnect()>()]
+  exceptional preds: []
+return
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: []
+  exceptional succs: []
+  succs []
+
+  preds: [$r5 = new java.net.URL, specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt"), $r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>(), $r10 = $r12, $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>(), $r3 = new java.io.InputStreamReader, specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13), $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $c0 = (char) $i1, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $r15 = <java.lang.System: java.io.PrintStream out>, virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0), $r16 = new java.lang.StringBuilder, specialinvoke $r16.<java.lang.StringBuilder: void <init>()>(), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0), $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>(), if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+  unexceptional preds: []
+  exceptional preds: [$r5 = new java.net.URL, specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt"), $r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>(), $r10 = $r12, $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>(), $r3 = new java.io.InputStreamReader, specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13), $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $c0 = (char) $i1, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $r15 = <java.lang.System: java.io.PrintStream out>, virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0), $r16 = new java.lang.StringBuilder, specialinvoke $r16.<java.lang.StringBuilder: void <init>()>(), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0), $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>(), if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)]
+$r2 := @caughtexception
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()]
+  exceptional succs: [$r17 := @caughtexception]
+  succs [virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>(), $r17 := @caughtexception]
+
+  preds: [$r2 := @caughtexception]
+  unexceptional preds: [$r2 := @caughtexception]
+  exceptional preds: []
+virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> Trap :
+begin  : virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()
+end    : if $r10 == null goto return
+handler: $r17 := @caughtexception]
+  unexceptional succs: [if $r10 == null goto return]
+  exceptional succs: [$r17 := @caughtexception]
+  succs [if $r10 == null goto return, $r17 := @caughtexception]
+
+  preds: [virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()]
+  unexceptional preds: [virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()]
+  exceptional preds: []
+if $r10 == null goto return
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>(), return]
+  exceptional succs: []
+  succs [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>(), return]
+
+  preds: [if $r10 == null goto return]
+  unexceptional preds: [if $r10 == null goto return]
+  exceptional preds: []
+virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [return]
+  exceptional succs: []
+  succs [return]
+
+  preds: [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()]
+  unexceptional preds: [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()]
+  exceptional preds: []
+return
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: []
+  exceptional succs: []
+  succs []
+
+  preds: [$r5 = new java.net.URL, specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt"), $r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>(), $r10 = $r12, $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>(), $r3 = new java.io.InputStreamReader, specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13), $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $c0 = (char) $i1, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $r15 = <java.lang.System: java.io.PrintStream out>, virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0), $r16 = new java.lang.StringBuilder, specialinvoke $r16.<java.lang.StringBuilder: void <init>()>(), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0), $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>(), if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), $r10 = null, $r2 := @caughtexception, virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()]
+  unexceptional preds: []
+  exceptional preds: [$r5 = new java.net.URL, specialinvoke $r5.<java.net.URL: void <init>(java.lang.String)>("https://publicobject.com/helloworld.txt"), $r11 = virtualinvoke $r5.<java.net.URL: java.net.URLConnection openConnection()>(), $r10 = $r12, $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>(), $r3 = new java.io.InputStreamReader, specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13), $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $c0 = (char) $i1, $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>(), $r15 = <java.lang.System: java.io.PrintStream out>, virtualinvoke $r15.<java.io.PrintStream: void print(char)>($c0), $r16 = new java.lang.StringBuilder, specialinvoke $r16.<java.lang.StringBuilder: void <init>()>(), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14), $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0), $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>(), if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14), $r10 = null, $r2 := @caughtexception, virtualinvoke $r2.<java.lang.Exception: void printStackTrace()>()]
+$r17 := @caughtexception
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [if $r10 == null goto throw $r17]
+  exceptional succs: []
+  succs [if $r10 == null goto throw $r17]
+
+  preds: [$r17 := @caughtexception]
+  unexceptional preds: [$r17 := @caughtexception]
+  exceptional preds: []
+if $r10 == null goto throw $r17
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>(), throw $r17]
+  exceptional succs: []
+  succs [virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>(), throw $r17]
+
+  preds: [if $r10 == null goto throw $r17]
+  unexceptional preds: [if $r10 == null goto throw $r17]
+  exceptional preds: []
+virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@9578545d:
+  +java.lang.ClassCircularityError+java.lang.LinkageError+java.lang.IncompatibleClassChangeError+java.lang.IllegalAccessError+java.lang.NoSuchMethodError+Any_subtype_of_java.lang.ClassFormatError+java.lang.AbstractMethodError+java.lang.UnsatisfiedLinkError+java.lang.NoClassDefFoundError+java.lang.NullPointerException+java.lang.VerifyError -> (escapes)]
+  unexceptional succs: [throw $r17]
+  exceptional succs: []
+  succs [throw $r17]
+
+  preds: [if $r10 == null goto throw $r17, virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()]
+  unexceptional preds: [if $r10 == null goto throw $r17, virtualinvoke $r10.<java.net.HttpURLConnection: void disconnect()>()]
+  exceptional preds: []
+throw $r17
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@f5bfd777:
+  +Any_subtype_of_java.lang.Throwable -> (escapes)]
+  unexceptional succs: []
+  exceptional succs: []
+  succs []
+
+  preds: [if $r12 == null goto return, if $r10 == null goto return]
+  unexceptional preds: [if $r12 == null goto return, if $r10 == null goto return]
+  exceptional preds: []
+return
+  exception destinations: [soot.toolkits.exceptions.ThrowableSet@3c1:
+   -> (escapes)]
+  unexceptional succs: []
+  exceptional succs: []
+  succs []
+
+
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 322
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 268
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 750 forward and 348 backward edges solved, processing 3 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 86 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 63 MB
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 1 with 3 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 3 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 57 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14) in method <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in method <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in method <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $c0 = (char) $i1
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in method <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $c0 = (char) $i1
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in method <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r13 = virtualinvoke $r12.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> specialinvoke $r3.<java.io.InputStreamReader: void <init>(java.io.InputStream)>($r13)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $i1 = virtualinvoke $r3.<java.io.InputStreamReader: int read()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> if $i1 == -1 goto virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r16 = new java.lang.StringBuilder
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r14)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r16 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.StringBuilder append(char)>($c0)
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> $r14 = virtualinvoke $r16.<java.lang.StringBuilder: java.lang.String toString()>()
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 	 -> <com.example.susmit.httptest.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - 		 -> virtualinvoke $r4.<android.widget.TextView: void setText(java.lang.CharSequence)>($r14)
+Maximum memory consumption: 86.565072 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 1 leaks
